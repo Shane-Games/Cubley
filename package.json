@@ -1,10 +1,10 @@
 {
   "name": "cubely",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "A Node.js library for colorful logs and log files.",
-  "main": "cubely.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./src/test.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "colors",
     "colours",
     "logger",
-    "cubley"
+    "cubely"
   ],
   "author": "ShanePaton",
   "license": "MIT",
