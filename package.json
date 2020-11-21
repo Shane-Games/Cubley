@@ -1,6 +1,6 @@
 {
   "name": "cubely",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Node.js library for colorful logs and log files.",
   "main": "cubely.js",
   "scripts": {
@@ -17,7 +17,6 @@
     "colours",
     "logger",
     "cubley"
-
   ],
   "author": "ShanePaton",
   "license": "MIT",
