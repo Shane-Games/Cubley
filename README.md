@@ -1,33 +1,33 @@
 <h1 align="center">
-	<img src="https://i.imgur.com/17Ii15e.png" alt="drawing" width="200"/>
+	<img src="https://imgur.com/e7CJWAg.png" alt="Cubely" width="200"/>
 </h1>
 
 > A Node.js library for colorful logs and log files.
 
 ## Installation
 
-Use the [npm](https://www.npmjs.com/get-npm) to install Cubley.
+Use the [npm](https://www.npmjs.com/get-npm) to install Cubely.
 
 ```npm
-npm install cubley
+npm install cubely
 ```
 
 ## Usage
 
 ```js
-const cubley = require("cubely")
+const cubely = require("cubely")
 ```
 
 ```js
-cubley.Info('Hello')    //-> [INFO]: Hello
-cubley.Debug('Hello')   //-> [DEBUG]: Hello
-cubley.Warn('Hello')    //-> [WARN]: Hello
-cubley.Error('Hello')   //-> [ERROR]: Hello
+cubely.Info('Hello')    //-> [INFO]: Hello
+cubely.Debug('Hello')   //-> [DEBUG]: Hello
+cubely.Warn('Hello')    //-> [WARN]: Hello
+cubely.Error('Hello')   //-> [ERROR]: Hello
 ```
 
 Custom Logs
 ```js
-cubley.Custom('Custom', 'Hello', cubley.colors.foreground.Cyan) //-> [Custom]: Hello
+cubely.Custom('Custom', 'Hello', cubely.colors.foreground.Cyan) //-> [Custom]: Hello
 ```
 
 ## Contributing
