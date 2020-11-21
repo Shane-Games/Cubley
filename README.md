@@ -1,6 +1,8 @@
-# Cubley
+<h1 align="center">
+	<img src="https://i.imgur.com/17Ii15e.png" alt="drawing" width="200"/>
+</h1>
 
-A Node.js library for colorful logs and log files.
+> A Node.js library for colorful logs and log files.
 
 ## Installation
 
