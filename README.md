@@ -4,7 +4,7 @@ A Node.js library for colorful logs and log files.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the [npm](https://www.npmjs.com/get-npm) to install Cubley.
 
 ```npm
 npm install cubley
@@ -17,10 +17,15 @@ const cubley = require("cubely")
 ```
 
 ```js
-cubley.Info('Hello')    -> [INFO]: Hello
-cubley.Debug('Hello')   -> [DEBUG]: Hello
-cubley.Warn('Hello')    -> [WARN]: Hello
-cubley.Error('Hello')   -> [ERROR]: Hello
+cubley.Info('Hello')    //-> [INFO]: Hello
+cubley.Debug('Hello')   //-> [DEBUG]: Hello
+cubley.Warn('Hello')    //-> [WARN]: Hello
+cubley.Error('Hello')   //-> [ERROR]: Hello
+```
+
+Custom Logs
+```js
+cubley.Custom('Custom', 'Hello', cubley.colors.foreground.Cyan) //-> [Custom]: Hello
 ```
 
 ## Contributing
