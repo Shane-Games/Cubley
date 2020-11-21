@@ -4,6 +4,9 @@
 
 > A Node.js library for colorful logs and log files.
 
+<img src="https://img.shields.io/bundlephobia/min/cubely" alt="Cubely"/>
+<img src="https://img.shields.io/npm/l/cubely" alt="Cubely"/>
+
 ## Installation
 
 Use the [npm](https://www.npmjs.com/get-npm) to install Cubely.
