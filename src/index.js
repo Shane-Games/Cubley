@@ -9,7 +9,7 @@ module.exports.colors = {
 
 	underscore: "\x1b[4m",
 	reset: "\x1b[0m",
-	
+
 		foreground:{
 			Black: "\x1b[30m",
 			Red: "\x1b[31m",
@@ -43,7 +43,7 @@ module.exports.warn = msg => {
 }
 module.exports.error = msg => {
 	console.log(`${this.colors.error}[ERROR]: ${msg} ${this.colors.reset}`)
-	stream.write(`[Error]: ${msg}\r\n`);
+	stream.write(`[ERROR]: ${msg}\r\n`);
 }
 module.exports.debug = msg => {
 	console.log(`${this.colors.debug}[DEBUG]: ${msg} ${this.colors.reset}`)

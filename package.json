@@ -1,6 +1,6 @@
 {
   "name": "cubely",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A Node.js library for colorful logs and log files.",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
